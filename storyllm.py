@@ -25,7 +25,7 @@ torch.manual_seed(1337)
 #!wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 
 # Load the data
-with open('input.txt', 'r', encoding='utf-8') as file:
+with open('story-train.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 
 # Find the unique characters that occur in the text
